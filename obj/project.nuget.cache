@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "4JdCSb311cE5ffKCqUDMijeBJ3C5ozdow0gySTjoD3fR74w8y2npMZCC4neDxnhLwUmTBX7Tdx9g8qX/MjHskg==",
+  "dgSpecHash": "tLUO0kagqNqlcfDAIxylFvrOLEhVtofFgHIfJTtMdRZOrF3YAqj0xCRyIORc8dSWGbc67IYbC3LKTcUk4XQ+Cg==",
   "success": true,
-  "projectFilePath": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\Tower_Defense_Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\natha\\.nuget\\packages\\raylib-cs\\4.0.0.1\\raylib-cs.4.0.0.1.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
