@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Tower_Defense_Game/1.0.0": {
+        "runtime": {
+          "Tower_Defense_Game.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tower_Defense_Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

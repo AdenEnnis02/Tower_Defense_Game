@@ -1,0 +1,15 @@
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/Tower_Defense_Game
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/Tower_Defense_Game.deps.json
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/Tower_Defense_Game.runtimeconfig.json
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/Tower_Defense_Game.dll
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/Tower_Defense_Game.pdb
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.csproj.AssemblyReference.cache
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.AssemblyInfoInputs.cache
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.AssemblyInfo.cs
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.csproj.CoreCompileInputs.cache
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.dll
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/refint/Tower_Defense_Game.dll
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.pdb
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.genruntimeconfig.cache
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/ref/Tower_Defense_Game.dll
