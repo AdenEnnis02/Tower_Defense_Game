@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj": {}
+    "/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/Tower_Defense_Game.csproj": {}
   },
   "projects": {
-    "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj": {
+    "/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/Tower_Defense_Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj",
+        "projectUniqueName": "/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/Tower_Defense_Game.csproj",
         "projectName": "Tower_Defense_Game",
-        "projectPath": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj",
-        "packagesPath": "/Users/adenennis/.nuget/packages/",
-        "outputPath": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/",
+        "projectPath": "/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/Tower_Defense_Game.csproj",
+        "packagesPath": "/Users/christopherleavitt/.nuget/packages/",
+        "outputPath": "/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adenennis/.nuget/NuGet/NuGet.Config"
+          "/Users/christopherleavitt/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[4.0.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }
