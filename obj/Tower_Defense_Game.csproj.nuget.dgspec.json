@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\Tower_Defense_Game.csproj": {}
+    "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\Tower_Defense_Game.csproj": {
+    "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\Tower_Defense_Game.csproj",
+        "projectUniqueName": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj",
         "projectName": "Tower_Defense_Game",
-        "projectPath": "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\Tower_Defense_Game.csproj",
-        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\obj\\",
+        "projectPath": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj",
+        "packagesPath": "/Users/adenennis/.nuget/packages/",
+        "outputPath": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/adenennis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -40,7 +40,7 @@
           "dependencies": {
             "Raylib-cs": {
               "target": "Package",
-              "version": "[4.0.0.1, )"
+              "version": "[4.5.0, )"
             }
           },
           "imports": [
@@ -54,30 +54,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

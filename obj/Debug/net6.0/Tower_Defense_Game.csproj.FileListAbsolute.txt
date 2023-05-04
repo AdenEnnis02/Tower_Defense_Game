@@ -13,3 +13,9 @@
 /Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.pdb
 /Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.genruntimeconfig.cache
 /Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/ref/Tower_Defense_Game.dll
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/Raylib-cs.dll
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/runtimes/linux-x64/native/libraylib.so
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/runtimes/osx-x64/native/libraylib.dylib
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/runtimes/win-x64/native/raylib.dll
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/bin/Debug/net6.0/runtimes/win-x86/native/raylib.dll
+/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.csproj.CopyComplete

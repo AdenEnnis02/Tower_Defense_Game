@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Raylib-cs/4.0.0.1": {
+      "Raylib-cs/4.5.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -21,6 +21,10 @@
           "runtimes/linux-x64/native/libraylib.so": {
             "assetType": "native",
             "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libraylib.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
           },
           "runtimes/osx-x64/native/libraylib.dylib": {
             "assetType": "native",
@@ -48,10 +52,10 @@
     }
   },
   "libraries": {
-    "Raylib-cs/4.0.0.1": {
-      "sha512": "P8VqY5UsEawOoWElEcLNmLu08zOpvkk5C7eI0OKR8fDL7v6bPkFchC8iUJI47BgPq0lYsQbnMeEOe2bz/HZ5bA==",
+    "Raylib-cs/4.5.0": {
+      "sha512": "VBM71a+X7v1GiobKRmKUKpgB5XLn1ZD+pJT0MuPsgEO2wfJehvPDWLrfrc65rvI3WuwSbs9Jikv5jOglhRLXug==",
       "type": "package",
-      "path": "raylib-cs/4.0.0.1",
+      "path": "raylib-cs/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -60,10 +64,11 @@
         "lib/net5.0/Raylib-cs.xml",
         "lib/net6.0/Raylib-cs.dll",
         "lib/net6.0/Raylib-cs.xml",
-        "raylib-cs.4.0.0.1.nupkg.sha512",
+        "raylib-cs.4.5.0.nupkg.sha512",
         "raylib-cs.nuspec",
         "raylib-cs_64x64.png",
         "runtimes/linux-x64/native/libraylib.so",
+        "runtimes/osx-arm64/native/libraylib.dylib",
         "runtimes/osx-x64/native/libraylib.dylib",
         "runtimes/win-x64/native/raylib.dll",
         "runtimes/win-x86/native/raylib.dll"
@@ -119,23 +124,23 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Raylib-cs >= 4.0.0.1"
+      "Raylib-cs >= 4.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natha\\.nuget\\packages\\": {}
+    "/Users/adenennis/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\Tower_Defense_Game.csproj",
+      "projectUniqueName": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj",
       "projectName": "Tower_Defense_Game",
-      "projectPath": "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\Tower_Defense_Game.csproj",
-      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natha\\OneDrive\\All Things Code\\CSE 310\\GroupProject\\Tower_Defense_Game\\obj\\",
+      "projectPath": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj",
+      "packagesPath": "/Users/adenennis/.nuget/packages/",
+      "outputPath": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/adenennis/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -161,7 +166,7 @@
         "dependencies": {
           "Raylib-cs": {
             "target": "Package",
-            "version": "[4.0.0.1, )"
+            "version": "[4.5.0, )"
           }
         },
         "imports": [
@@ -175,30 +180,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

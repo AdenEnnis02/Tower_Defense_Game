@@ -1,4 +1,4 @@
-﻿using raylib;
+using Raylib_cs;
 namespace TowerDefense
 {
 
@@ -10,7 +10,7 @@ namespace TowerDefense
         string name;
         bool hit = false;
 
-        public Monster(int hp, int moveSpeed, int size, string name)
+        public Monster(string name, int hp, int size, int moveSpeed)
         {
             self.hp = hp;
             self.movementSpeed = moveSpeed;
@@ -18,10 +18,17 @@ namespace TowerDefense
             self.name = name;
         }
 
-        public int damaged()
+        public int damageMonster()
         {
-            if (Monster.hit == true){
+            if (Monster.hit == true)
+            {
                 Monster.hp -= Tower.damage;
+                /* 
+                come back and change this later when the tower damage
+                variable is created.
+                */
+                Monster.hit == false;
+                return Monster.hp;
             }
         }
     }
