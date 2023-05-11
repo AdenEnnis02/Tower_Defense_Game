@@ -9,19 +9,21 @@ namespace TowerDefense
         int size;
         string name;
         bool hit = false;
+        int value;
 
-        public Monster(string name, int hp, int size, int moveSpeed)
+        public Monster (string name, int hp, int size, int moveSpeed, int value)
         {
-            self.hp = hp;
-            self.movementSpeed = moveSpeed;
-            self.size = size;
-            self.name = name;
+            this.hp = hp;
+            this.movementSpeed = moveSpeed;
+            this.size = size;
+            this.name = name;
+            this.value = value;
         }
 
         public int damageMonster()
         {
             if (Monster.hit == true)
-            {
+
                 Monster.hp -= Tower.damage;
                 /* 
                 come back and change this later when the tower damage
@@ -29,7 +31,6 @@ namespace TowerDefense
                 */
                 Monster.hit == false;
                 return Monster.hp;
-            }
         }
     }
 }
