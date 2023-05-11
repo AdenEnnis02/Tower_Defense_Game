@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4JdCSb311cE5ffKCqUDMijeBJ3C5ozdow0gySTjoD3fR74w8y2npMZCC4neDxnhLwUmTBX7Tdx9g8qX/MjHskg==",
+  "dgSpecHash": "A3NJ2Bd0DHD2XRAY+cvI0YRkKLEFHRz+w880eNlspK703s27xjZ/8kLaSVyrrg/4pft4EWvc0l0TV0+OmRrmag==",
   "success": true,
-  "projectFilePath": "/Users/adenennis/Documents/GitHub/Tower_Defense_Game/Tower_Defense_Game.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\kriss\\Documents\\BYUI Documents\\BYUI_2023\\02_Spring_2023\\Applied Programing\\M6TowerGame\\Tower_Defense_Game\\Tower_Defense_Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kriss\\.nuget\\packages\\raylib-cs\\4.5.0\\raylib-cs.4.5.0.nupkg.sha512",
+    "C:\\Users\\kriss\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

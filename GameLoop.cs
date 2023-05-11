@@ -1,5 +1,5 @@
 
-
+using System;
 using Raylib_cs;
 using System.Numerics;
 
@@ -9,8 +9,8 @@ public class GameLoop
 
     public static void Main()
     {
-        const int screenWidth = 800;
-        const int screenHeight = 450;
+        const int screenWidth = 900;
+        const int screenHeight = 900;
 
         Raylib.InitWindow(screenWidth, screenHeight, "Mouse Support");
 
@@ -30,7 +30,10 @@ public class GameLoop
 
             Raylib.BeginDrawing();
             Raylib.ClearBackground(Color.WHITE);
+            GameBoard gameBoard = new GameBoard();
 
+            gameBoard.Draw();
+            
             Raylib.DrawText("Move the mouse to change the cursor's position", 10, 10, 20, Color.GRAY);
             Raylib.DrawText("Click the left mouse button to change the cursor's color", 10, 40, 20, Color.GRAY);
 
