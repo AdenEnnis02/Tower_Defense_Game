@@ -5,8 +5,6 @@ using System.Numerics;
 
 public class GameLoop
 {
-    private static Color _cursorColor = Color.BLUE;
-
     public static void Main()
     {
         const int screenWidth = 900;
@@ -16,28 +14,26 @@ public class GameLoop
 
         Raylib.SetTargetFPS(60);
 
+        //Make instances of other classes here
+        Mouse mouseController = new Mouse();
+        GameBoard gameBoard = new GameBoard();
+
         while (!Raylib.WindowShouldClose())
         {
-            if (Raylib.IsMouseButtonPressed(MouseButton.MOUSE_LEFT_BUTTON))
-            {
-                // Change the cursor's color
-                _cursorColor = new Color(
-                    Raylib.GetRandomValue(0, 255),
-                    Raylib.GetRandomValue(0, 255),
-                    Raylib.GetRandomValue(0, 255),
-                    255);
-            }
+            mouseController.Update();
 
             Raylib.BeginDrawing();
             Raylib.ClearBackground(Color.WHITE);
-            GameBoard gameBoard = new GameBoard();
 
+            //Add functions from other classes here.
             gameBoard.Draw();
+            mouseController.DrawCursor();
             
+
             Raylib.DrawText("Move the mouse to change the cursor's position", 10, 10, 20, Color.GRAY);
             Raylib.DrawText("Click the left mouse button to change the cursor's color", 10, 40, 20, Color.GRAY);
 
-            Raylib.DrawCircleV(Raylib.GetMousePosition(), 15, _cursorColor);
+
 
             Raylib.EndDrawing();
         }
@@ -45,3 +41,6 @@ public class GameLoop
         Raylib.CloseWindow();
     }
 }
+
+
+
