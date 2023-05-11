@@ -13,3 +13,11 @@
 /Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.pdb
 /Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.genruntimeconfig.cache
 /Users/adenennis/Documents/GitHub/Tower_Defense_Game/obj/Debug/net6.0/ref/Tower_Defense_Game.dll
+/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.csproj.AssemblyReference.cache
+/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.AssemblyInfoInputs.cache
+/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.AssemblyInfo.cs
+/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.csproj.CoreCompileInputs.cache
+/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.dll
+/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/Debug/net6.0/refint/Tower_Defense_Game.dll
+/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/Debug/net6.0/Tower_Defense_Game.pdb
