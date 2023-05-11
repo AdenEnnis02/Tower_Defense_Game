@@ -4,7 +4,7 @@ class Tower
     private double fireSpeed;
     private int range;
     
-    private 
+    private Position location;
 
     //WIP: Default constructor for creating a tower
     public Tower() 
@@ -12,12 +12,14 @@ class Tower
         this.damage = 10;
         this.fireSpeed = 1.0;
         this.range = 10;
-        //this.location = 0.0;
+        this.location = Position(10.0,10.0);
     }
 
-    public Tower(int damage, double firespeed, int range/*, double location*/) 
+    public Tower(int damage, double firespeed, int range, Position location) 
     {
-
+      this.damage = damage;
+      this.fireSpeed = fireSpeed;
+      this.range = range;
     }
 
     /*
