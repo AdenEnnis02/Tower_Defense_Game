@@ -133,11 +133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/Tower_Defense_Game.csproj",
+      "projectUniqueName": "/Users/christopherleavitt/Documents/BYUI/AppliedProgramming/Tower_Defense_Game/Tower_Defense_Game.csproj",
       "projectName": "Tower_Defense_Game",
-      "projectPath": "/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/Tower_Defense_Game.csproj",
+      "projectPath": "/Users/christopherleavitt/Documents/BYUI/AppliedProgramming/Tower_Defense_Game/Tower_Defense_Game.csproj",
       "packagesPath": "/Users/christopherleavitt/.nuget/packages/",
-      "outputPath": "/Users/christopherleavitt/Documents/BYUI/Applied Programming/Tower_Defense_Game/obj/",
+      "outputPath": "/Users/christopherleavitt/Documents/BYUI/AppliedProgramming/Tower_Defense_Game/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christopherleavitt/.nuget/NuGet/NuGet.Config"
