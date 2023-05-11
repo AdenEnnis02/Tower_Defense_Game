@@ -9,13 +9,15 @@ namespace TowerDefense
         int size;
         string name;
         bool hit = false;
+        int value;
 
-        public Monster (string name, int hp, int size, int moveSpeed)
+        public Monster (string name, int hp, int size, int moveSpeed, int value)
         {
             this.hp = hp;
             this.movementSpeed = moveSpeed;
             this.size = size;
             this.name = name;
+            this.value = value;
         }
 
         public int damageMonster()
