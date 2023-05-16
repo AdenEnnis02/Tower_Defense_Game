@@ -5,7 +5,12 @@ using System.Numerics;
 
 public class MakeSquares
 {
-    
+        public void BlueSquare()
+    {
+    Raylib.DrawRectangle(100,100,100,100, Color.RED);
+
+
+    }
             Rectangle square1 = new Rectangle(100, 100, 50, 50);
             Rectangle square2 = new Rectangle(200, 200, 50, 50);
 // The first parameter 100 represents the X-coordinate of the top-left corner of the rectangle.

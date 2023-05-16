@@ -7,7 +7,7 @@ public class GameLoop
 {
     public static void Main()
     {
-        const int screenWidth = 900;
+        const int screenWidth = 1150;
         const int screenHeight = 900;
 
         Raylib.InitWindow(screenWidth, screenHeight, "Mouse Support");
@@ -17,6 +17,8 @@ public class GameLoop
         //Make instances of other classes here
         Mouse mouseController = new Mouse();
         GameBoard gameBoard = new GameBoard();
+        MakeSquares MS = new MakeSquares();
+        SideBar SB = new SideBar();
 
         while (!Raylib.WindowShouldClose())
         {
@@ -28,6 +30,10 @@ public class GameLoop
             //Add functions from other classes here.
             gameBoard.Draw();
             mouseController.DrawCursor();
+            SB.DrawToweroptions();
+            
+
+            
             
 
             Raylib.DrawText("Move the mouse to change the cursor's position", 10, 10, 20, Color.GRAY);

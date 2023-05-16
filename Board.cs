@@ -36,7 +36,62 @@ public class GameBoard
         redSquares[3, 4] = true;
         redSquares[4, 4] = true;
         redSquares[5, 4] = true;
-        // Add more red squares as needed
+        redSquares[6, 4] = true;
+        redSquares[7, 4] = true;
+        redSquares[7, 5] = true;
+        redSquares[7, 6] = true;
+        redSquares[7, 7] = true;
+        redSquares[7, 8] = true;
+        redSquares[7, 9] = true;
+        redSquares[6, 9] = true;
+        redSquares[5, 9] = true;
+        redSquares[4, 9] = true;
+        redSquares[3, 9] = true;
+        redSquares[3, 9] = true;
+        redSquares[3, 10] = true;
+        redSquares[3, 11] = true;
+        redSquares[3, 12] = true;
+        redSquares[3, 13] = true;
+        redSquares[3, 14] = true;
+        redSquares[4, 14] = true;
+        redSquares[5, 14] = true;
+        redSquares[6, 14] = true;
+        redSquares[7, 14] = true;
+        redSquares[8, 14] = true;
+        redSquares[9, 14] = true;
+        redSquares[10, 14] = true;
+        redSquares[11, 14] = true;
+        redSquares[12, 14] = true;
+        redSquares[12, 13] = true;
+        redSquares[12, 12] = true;
+        redSquares[12, 11] = true;
+        redSquares[12, 10] = true;
+        redSquares[12, 9] = true;
+        redSquares[12, 8] = true;
+        redSquares[12, 7] = true;
+        redSquares[12, 6] = true;
+        redSquares[12, 5] = true;
+        redSquares[12, 4] = true;
+        redSquares[12, 3] = true;
+        redSquares[13, 3] = true;
+        redSquares[14, 3] = true;
+        redSquares[15, 3] = true;
+        redSquares[15, 4] = true;
+        redSquares[15, 5] = true;
+        redSquares[15, 6] = true;
+        redSquares[15, 7] = true;
+        redSquares[15, 8] = true;
+        redSquares[15, 9] = true;
+        redSquares[15, 10] = true;
+        redSquares[15, 11] = true;
+        redSquares[15, 12] = true;
+        redSquares[15, 13] = true;
+        redSquares[15, 14] = true;
+        redSquares[15, 15] = true;
+        redSquares[15, 16] = true;
+        redSquares[15, 17] = true;
+ 
+    
     }
 
     public void Draw()
