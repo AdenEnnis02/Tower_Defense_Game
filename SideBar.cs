@@ -13,7 +13,6 @@ public class SideBar
             Raylib.DrawRectangle(950,200,50,50, Color.ORANGE); 
             Raylib.DrawRectangle(1050,200,50,50, Color.PURPLE);
             Raylib.DrawRectangle(925,800,200,100, Color.GREEN); 
-
     }
 
 

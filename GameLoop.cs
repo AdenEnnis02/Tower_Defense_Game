@@ -19,6 +19,7 @@ public class GameLoop
         GameBoard gameBoard = new GameBoard();
         MakeSquares MS = new MakeSquares();
         SideBar SB = new SideBar();
+        Collision Col = new Collision();
 
         while (!Raylib.WindowShouldClose())
         {
@@ -31,7 +32,8 @@ public class GameLoop
             gameBoard.Draw();
             mouseController.DrawCursor();
             SB.DrawToweroptions();
-            
+            // Col.checkCollision(GetMousePosition,boxBlue);
+            // collision = CheckCollisionRecs(GetMousePosition, boxBlue);
 
             
             

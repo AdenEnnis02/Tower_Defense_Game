@@ -16,5 +16,14 @@ public class Collision
     if (thingOneX == thingTwoX & thingOneY == thingTwoY)
         isCollide = true;
   }
+
+
+  public void checkCollisionTwo(int thingOne, int thingTwo) 
+  {
+    if (thingOne == thingTwo)
+        isCollide = true;
+  }
+
+  
 }
 
