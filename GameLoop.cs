@@ -9,6 +9,7 @@ public class GameLoop
 
     public static void Main()
     {
+<<<<<<< Updated upstream
         const int screenWidth = 800;
         const int screenHeight = 450;
 
@@ -26,6 +27,52 @@ public class GameLoop
                     Raylib.GetRandomValue(0, 255),
                     Raylib.GetRandomValue(0, 255),
                     255);
+=======
+        private static Color _cursorColor = Color.BLUE;
+        // Monster monster  = new Monster("Ogre", 200, 50, 50, 100, Color.GREEN);
+        
+        public static void Main()
+        {
+            const int screenWidth = 800;
+            const int screenHeight = 450;
+
+            var ogre_list = new List<GameObject>();
+            var position = new Vector2(50, 0);
+            
+            Raylib.InitWindow(screenWidth, screenHeight, "Mouse Support");
+
+            Raylib.SetTargetFPS(60);
+
+            while (!Raylib.WindowShouldClose())
+            {
+                if (Raylib.IsMouseButtonPressed(MouseButton.MOUSE_LEFT_BUTTON))
+                {
+                    // Change the cursor's color
+                    _cursorColor = new Color(
+                        Raylib.GetRandomValue(0, 255),
+                        Raylib.GetRandomValue(0, 255),
+                        Raylib.GetRandomValue(0, 255),
+                        255);
+                }
+
+                Raylib.BeginDrawing();
+                Raylib.ClearBackground(Color.WHITE);
+
+                Raylib.DrawText("Move the mouse to change the cursor's position", 10, 10, 20, Color.GRAY);
+                Raylib.DrawText("Click the left mouse button to change the cursor's color", 10, 40, 20, Color.GRAY);
+
+                Raylib.DrawCircleV(Raylib.GetMousePosition(), 15, _cursorColor);
+
+                Monster ogre  = new Monster("Ogre", 200, 50, 100, Color.GREEN);
+                ogre.position = position;
+                ogre.movespeed = new Vector2(10,10);
+                ogre_list.Add(ogre);
+
+                // var square = new GameSquare(Color.GREEN, 10);
+                // square.position = position;
+                // square.movespeed = new Vector2(10, 10);
+                Raylib.EndDrawing();
+>>>>>>> Stashed changes
             }
 
             Raylib.BeginDrawing();
